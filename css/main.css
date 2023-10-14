@@ -1,0 +1,42 @@
+#section-size {
+    max-width: 1000px;
+    margin: auto;
+}
+
+btn:focus,
+a:focus {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* news */
+
+#news {
+    list-style: none;
+}
+
+#news>li {
+    max-width: 500px;
+    background-color: aqua;
+}
+
+/* publications */
+#publications {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    table-layout: auto;
+    border-bottom: 1cm grey;
+}
+
+.pub-row {
+    border-bottom: 1px solid #ddd;
+}
+.publication-title, .publication-notes{
+    font-weight: bold;
+}
